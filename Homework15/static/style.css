@@ -1,0 +1,19 @@
+.zentrieren{
+margin: 0 auto;
+}
+
+.backgroundBlue {
+background-color: blue;
+}
+
+.textCenter{
+display: table;
+width: 100%;
+height: 10em;
+
+}
+
+.inputCenter{
+width: 260px;
+margin: auto;
+}

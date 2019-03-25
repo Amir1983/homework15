@@ -1,0 +1,30 @@
+{% extends "basic.html" %}
+
+{% block body %}
+<div style="width: 260px; margin: auto;">
+<form method="get">
+    <input type="text" name="zahl" />
+    <button type="submit">bestätigen</button>
+
+</form>
+</div>
+<div style="text-align: center;">
+    <div style="color: red;">
+    {% if zahl != 0 and zahl != glueckszahl %}
+
+    <p>Leider Falsch</p>
+     <p>Ihre gewählte Zahl: {{ zahl }}</p>
+    <p>Die Zufallszahl ist: {{ glueckszahl }}</p>
+    {% endif %}
+    </div>
+    <div style="color: blue;">
+ {% if zahl == glueckszahl %}
+    <p>Sie haben gewonnen</p>
+     <p>Ihre gewählte Zahl: {{ zahl }}</p>
+    <p>Die Zufallszahl ist: {{ glueckszahl }}</p>
+    <a href="Dateneingabe">Gewinn abholen</a>
+    {% endif %}
+     </div>
+</div>
+
+{% endblock %}

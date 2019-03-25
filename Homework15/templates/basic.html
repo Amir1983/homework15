@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Geheime Zahl</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+
+        <p class="textCenter" style="background-color: blue; height: 50px;">Navigationsleiste</p>
+
+
+        <h1 class="textCenter" style="background-color: red; height: 50px;" >Die Geheime Zahl</h1>
+
+        {% block body %}{% endblock %}
+</body>
+</html>
