@@ -1,0 +1,7 @@
+Laufzeit: Python37
+
+Handler:
+- URL: / statisch
+  static_dir: statisch
+- url: /.*
+  Skript: Auto
