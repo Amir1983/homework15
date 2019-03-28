@@ -1,0 +1,28 @@
+.zentrieren{
+margin: 0 auto;
+}
+
+.backgroundBlue {
+background-color: blue;
+}
+
+.textCenter{
+text-align: center;
+background-color: blue;
+height: 50px;
+
+}
+.textBlue{
+color: blue;
+}
+.textCenter2{
+text-align: center;
+color: red;
+
+
+}
+
+.inputCenter{
+width: 260px;
+margin: auto;
+}

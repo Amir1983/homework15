@@ -1,0 +1,14 @@
+{% extends "basic.html" %}
+
+{% block body %}
+<div style="width: 260px; margin: auto;">
+<form method="post" action="/Dateneingabe">
+    <input type="text" name="name" placeholder="Vorname"/>
+    <input type="text" name="nachname" placeholder="Nachname"/>
+    <input type="text" name="adresse" placeholder="Adresse" />
+
+    <a href="index.html"><button type="submit">bestätigen</button></a>
+</form>
+</div>
+
+{% endblock %}
